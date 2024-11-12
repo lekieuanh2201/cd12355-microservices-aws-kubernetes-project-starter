@@ -10,7 +10,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t anhlk5/coworkingapp ./analytics/
-      - docker docker tag anhlk5/coworkingapp:latest 178422007520.dkr.ecr.us-east-1.amazonaws.com/anhlk5/coworkingapp:latest      
+      - docker tag anhlk5/coworkingapp:latest 178422007520.dkr.ecr.us-east-1.amazonaws.com/anhlk5/coworkingapp:latest      
   post_build:
     commands:
       - echo Build completed on `date`
