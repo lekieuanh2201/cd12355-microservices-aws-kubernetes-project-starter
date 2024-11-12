@@ -46,11 +46,11 @@ spec:
           timeoutSeconds: 5
         envFrom:
         - configMapRef:
-            name: anhlk5_configmap
+            name: anhlk5-configmap
         env:
         - name: DB_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: anhlk5_secret
+              name: anhlk5-secret
               key: DB_PASSWORD
       restartPolicy: Always
