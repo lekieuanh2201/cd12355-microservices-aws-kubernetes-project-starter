@@ -4,7 +4,7 @@ metadata:
   name: anhlk5-configmap
 data:
   DB_NAME: "postgres"
-  DB_USER: "anhlk5"
+  DB_USERNAME: "anhlk5"
   DB_HOST: "anhlk5-psql-postgresql"
   DB_PORT: "5432"
 ---

@@ -108,14 +108,14 @@ The benefit here is that it's explicitly set. However, note that the `DB_PASSWOR
 5. Check AWS CloudWatch for application logs
 
 ### Deliverables
-1. `Dockerfile`
-2. Screenshot of AWS CodeBuild pipeline
-3. Screenshot of AWS ECR repository for the application's repository
+1. `Dockerfile` v
+2. Screenshot of AWS CodeBuild pipeline v
+3. Screenshot of AWS ECR repository for the application's repository v
 4. Screenshot of `kubectl get svc`
 5. Screenshot of `kubectl get pods`
-6. Screenshot of `kubectl describe svc <DATABASE_SERVICE_NAME>`
+6. Screenshot of `kubectl describe svc <DATABASE_SERVICE_NAME>` v
 7. Screenshot of `kubectl describe deployment <SERVICE_NAME>`
-8. All Kubernetes config files used for deployment (ie YAML files)
+8. All Kubernetes config files used for deployment (ie YAML files) v
 9. Screenshot of AWS CloudWatch logs for the application
 10. `README.md` file in your solution that serves as documentation for your user to detail how your deployment process works and how the user can deploy changes. The details should not simply rehash what you have done on a step by step basis. Instead, it should help an experienced software developer understand the technologies and tools in the build and deploy process as well as provide them insight into how they would release new builds.
 

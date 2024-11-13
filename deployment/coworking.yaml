@@ -31,7 +31,7 @@ spec:
       containers:
       - name: coworking
         image: 178422007520.dkr.ecr.us-east-1.amazonaws.com/anhlk5/coworkingapp:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /health_check
